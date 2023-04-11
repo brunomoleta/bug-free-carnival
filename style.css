@@ -1,0 +1,83 @@
+:root {
+  font-family: Outfit, system-ui, sans-serif;
+  border: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+#central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 98vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  width: 24.5rem;
+  height: 35rem;
+  border-radius: 1rem;
+  border: 2px solid hsl(218, 44%, 22%, .3);
+  box-shadow: 3px 3px 8px 3px hsl(218, 44%, 22%, 0.2);
+  position: relative;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  width: 20ch;
+  font-size: 1.41rem;
+}
+
+p {
+  font-size: 0.9375rem;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  width: 26ch;
+}
+
+img {
+  height: 22.5rem;
+  width: auto;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#text {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attribution {
+  margin-top: 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-transform: none;
+}
