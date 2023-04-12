@@ -100,9 +100,9 @@ img {
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+=> To explain the process of coding, such as its happening through this document.;
+=> To have a better control over the layout using flexbox;
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 

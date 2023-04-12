@@ -20,6 +20,10 @@ body {
   min-height: 98vh;
 }
 
+figcaption{
+  display: none;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -31,11 +35,6 @@ body {
   border: 2px solid hsl(218, 44%, 22%, 0.3);
   box-shadow: 3px 3px 8px 3px hsl(218, 44%, 22%, 0.2);
   position: relative;
-  transition: translate 300ms;
-}
-
-.card:hover {
-  translate: 2px 2px;
 }
 
 img {
