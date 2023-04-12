@@ -8,23 +8,16 @@
   box-sizing: border-box;
 }
 
-input,
-textarea,
-button,
-select {
-  font: inherit;
-}
-
 body {
   background-color: hsl(212, 45%, 89%);
 }
 
-#central{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 98vh;
+#central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 98vh;
 }
 
 .card {
@@ -32,12 +25,34 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: hsl(0, 0%, 100%);
-  width: 24.5rem;
+  width: 25rem;
   height: 35rem;
   border-radius: 1rem;
-  border: 2px solid hsl(218, 44%, 22%, .3);
+  border: 2px solid hsl(218, 44%, 22%, 0.3);
   box-shadow: 3px 3px 8px 3px hsl(218, 44%, 22%, 0.2);
   position: relative;
+  transition: translate 300ms;
+}
+
+.card:hover {
+  translate: 2px 2px;
+}
+
+img {
+  height: 22.5rem;
+  width: auto;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#text {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -54,30 +69,20 @@ p {
   width: 26ch;
 }
 
-img {
-  height: 22.5rem;
-  width: auto;
-  border-radius: 1rem;
-  display: flex;
-  justify-content: center;
-}
-
-#text {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
 .attribution {
   margin-top: 1rem;
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
-  text-transform: none;
+  color: hsl(220, 15%, 55%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+.attribution a:active {
+  color: hsl(218, 44%, 22%);
 }
