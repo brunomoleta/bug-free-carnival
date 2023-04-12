@@ -5,7 +5,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -22,11 +21,6 @@ It's been a while since I began learning web development but been in and out of 
 Hopefully, through these challenges, I'll make a streak of evolving my skills and climbing up that mountain.
 I've been looking to do a challenge from the website for 
 about two years and I finally got my feet wet.
-
-### Screenshot
-
-(/images/Screenshot_1.jpg)
-
 
 ### Links
 
