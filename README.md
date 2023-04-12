@@ -25,7 +25,7 @@ about two years and I finally got my feet wet.
 
 ### Screenshot
 
-(./images/Screenshot_1.jpg)
+(/images/Screenshot_1.jpg)
 
 
 ### Links
