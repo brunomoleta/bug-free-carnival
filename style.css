@@ -1,3 +1,4 @@
+/* Defaults */
 :root {
   font-family: Outfit, system-ui, sans-serif;
   border: 0;
@@ -7,9 +8,25 @@
 * {
   box-sizing: border-box;
 }
-/* 
-body {
-} */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+figure,
+strong {
+  all: unset;
+}
+
+/* Card */
 
 #central {
   background-color: hsl(212, 45%, 89%);
@@ -19,50 +36,29 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-/*  
-figcaption{
-  display: none;
-}  */
 
 .card {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: hsl(0, 0%, 100%);
-  width: 25rem;E
-  height: 35rem; */
-  max-width: 20rem; 
+  max-width: 20rem;
   border-radius: 1rem;
   border: 2px solid hsl(218, 44%, 22%, 0.3);
   box-shadow: 3px 3px 8px 3px hsl(218, 44%, 22%, 0.2);
-  /* position: relative; */
   padding: 1rem;
+  background-color: white;
 }
 
 img {
-  /* height: 22.5rem;
-  width: auto; */
   width: 100%;
-
   border-radius: 1rem;
-  display: flex;
-  justify-content: center;
 }
 
-h1,
+.card-heading,
 p {
-  /* position: absolute; */
-  /* bottom: 0; */
   text-align: center;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
 }
 
-h1 {
+.card-heading {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  /* width: 20ch; */
   font-size: 1.41rem;
 }
 
@@ -70,9 +66,9 @@ p {
   font-size: 0.9375rem;
   color: hsl(220, 15%, 55%);
   font-weight: 400;
-  /* width: 26ch; */
 }
 
+/* footer */
 .attribution {
   margin-top: 1rem;
   font-size: 11px;
